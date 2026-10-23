@@ -1,6 +1,22 @@
+# Python environment and cache
 venv/
 __pycache__/
-*.py[cod]
+*.pyc
+
+# Secrets
 .env
+.env.*
+!.env.example
+
+# Databases and AI data (generated locally, can contain patient data)
 *.db
-.pytest_cache/
+*.sqlite3
+chroma_db/
+
+# Patient files
+uploads/
+reports/
+
+# Editor settings
+.vscode/
+.idea/

@@ -1,6 +1,13 @@
 fastapi
+python-multipart
 uvicorn
 sqlalchemy
 pydantic
 pydantic-settings
 python-dotenv
+python-jose[cryptography]
+pypdf
+reportlab
+sentence-transformers
+chromadb
+ollama
